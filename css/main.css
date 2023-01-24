@@ -22,7 +22,7 @@ canvas {
 
 .header1 {
   font-family: 'Righteous', cursive;
-  font-size: 6vw;
+  font-size: 3vw;
   color:#f7f7f7;
 }
 
@@ -172,3 +172,103 @@ canvas{
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
+
+/*seller */
+
+	.duck-list li {
+		width: 46%;
+		margin: 2%;
+	}
+	
+	.banner-ducks {
+		width: auto;
+		margin: 10px 10%;
+	}
+	
+	.duck-title {
+		font-size: 18px;
+	}
+	
+	.banner-ducks {
+	width: 500px;
+}
+
+.banner-ducks img {
+	width: 100%;
+}
+
+.duck-list {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.duck-list li {
+	width: 200px;
+	margin: 10px;
+}
+
+.duck-list a {
+	color: #fff;
+}
+
+.duck-list a:hover {
+	color: #D55161;
+	text-decoration: none;
+}
+
+.duck-list a:hover .duck-img {	
+	border: 4px solid #D55161;
+}
+
+.duck-list a:hover .duck-price {	
+	opacity: 1;
+}
+
+.duck-btn {
+	
+}
+
+.duck-title {
+	font-size: 22px;	
+	margin-top: 8px;
+	margin-bottom: 4px;    
+}
+
+.duck-price {
+	opacity: 0.6;
+	font-size: 16px;    
+}
+
+.duck-img {	
+	border-radius: 10px;
+	overflow: hidden;
+	border: 4px solid transparent;
+}
+
+.duck-list img {
+	width: 100%;
+}
+
+
+
+
+@media only screen and (max-width: 1120px) {
+	.banner-cols {
+		width: 100%;
+	}
+	
+	.duck-list li {
+		width: 21%;
+		margin: 2%;
+	}
+	
+	.banner-logo {
+		width: 100%;
+	}
+}
+
+
+
