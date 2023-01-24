@@ -22,7 +22,7 @@ canvas {
 
 .header1 {
   font-family: 'Righteous', cursive;
-  font-size: 2vw;
+  font-size: 3vw;
   color:#f7f7f7;
 }
 
@@ -215,7 +215,7 @@ canvas{
 }
 
 .duck-list a:hover {
-	color: #D55161;
+	color: #696969;
 	text-decoration: none;
 }
 
