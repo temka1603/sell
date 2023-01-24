@@ -175,21 +175,21 @@ canvas{
 
 /*seller */
 
-	.duck-list li {
-		width: 46%;
-		margin: 2%;
-	}
+.duck-list li {
+	width: 46%;
+	margin: 2%;
+}
 	
-	.banner-ducks {
-		width: auto;
-		margin: 10px 10%;
-	}
+.banner-ducks {
+	width: auto;
+	margin: 10px 10%;
+}
 	
-	.duck-title {
-		font-size: 18px;
-	}
+.duck-title {
+	font-size: 18px;
+}
 	
-	.banner-ducks {
+.banner-ducks {
 	width: 500px;
 }
 
@@ -225,10 +225,6 @@ canvas{
 
 .duck-list a:hover .duck-price {	
 	opacity: 1;
-}
-
-.duck-btn {
-	
 }
 
 .duck-title {
@@ -269,6 +265,3 @@ canvas{
 		width: 100%;
 	}
 }
-
-
-
